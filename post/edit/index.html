@@ -9,10 +9,16 @@
   </head>
 
   <body>
+    <button class="logout-btn">Logout</button>
     <h1>Edit Post</h1>
 
-    <form name="editPost">
-      <button>Edit Post</button>
+    <form id="edit-post-form">
+      <input type="text" id="title" placeholder="Title" required>
+      <textarea id="body" placeholder="Write your post" required></textarea>
+      <input type="text" id="tags" placeholder="Tags (comma-separated)">
+      <input type="url" id="media" placeholder="Media URL">
+      <button type="submit">Edit post</button>
     </form>
+    <a href="/">Back</a>
   </body>
 </html>

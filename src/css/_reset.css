@@ -10,3 +10,35 @@ body {
   box-sizing: border-box;
   margin: 0;
 }
+
+.post-media {
+  width: 200px;
+  height: 200px;
+}
+
+.author-img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.post {
+  border: 1px solid black;
+  display: flex;
+  margin: 50px;
+}
+
+.post-body-container {
+  width: 500px;
+  height: 300px;
+}
+
+#post-container {
+  width: 500px;
+  height: 500px;
+}
+
+#post-image {
+  width: 200px;
+  height: 200px;
+}
